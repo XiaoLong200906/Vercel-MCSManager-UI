@@ -1,0 +1,21 @@
+{
+    "builds": [
+        {
+        "src": "/**/*",
+        "use": "@vercel/static"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/:match*",
+            "destination": "https://mcsm-api.rhysan.com:23332/:match*"
+        },
+        {
+            "source": "/:match*/",
+            "destination": "https://mcsm-api.rhysan.com:23332/:match*/"
+        }
+    ],
+    "github": {
+        "silent": true
+    }
+}
