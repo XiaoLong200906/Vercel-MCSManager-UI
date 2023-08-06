@@ -5,7 +5,7 @@
         "use": "@vercel/static"
         }
     ],
-    "redirects": [
+    "rewrites": [
         {
             "source": "/:match*",
             "destination": "https://mcsm-api.rhysan.com:23332/:match*"
