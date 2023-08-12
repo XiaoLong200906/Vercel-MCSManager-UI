@@ -1,17 +1,21 @@
 {
-    "builds": [
-        {
-        "src": "/**/*",
-        "use": "@vercel/static"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/api/:path*",
-            "destination": "https://mcsm-api.rhysan.com:23332/api/:path*"
-        }
-    ],
-    "github": {
-        "silent": true
+  "builds": [
+    {
+      "src": "/**/*",
+      "use": "@vercel/static"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://mcsm-api.rhysan.com:23332/api/:match*"
+    },
+    {
+      "source": "/api/:match*/",
+      "destination": "https://mcsm-api.rhysan.com:23332/api/:match*/"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
 }
