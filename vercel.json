@@ -7,12 +7,12 @@
   ],
   "rewrites": [
     {
-      "source": "/api/:match*",
-      "destination": "http://203.203.56.148:8080/api/:match*"
+      "source": "/:match*",
+      "destination": "http://203.203.56.148:8080/:match*/"
     },
     {
-      "source": "/api/:match*",
-      "destination": "http://203.203.56.148:8080/api/:match*"
+      "source": "/:match*",
+      "destination": "http://203.203.56.148:8080/:match*/"
     }
   ],
   "github": {
