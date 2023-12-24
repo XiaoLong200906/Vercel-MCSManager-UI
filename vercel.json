@@ -17,7 +17,7 @@
     {
       "source": "/api/:match*/",
       "destination": "https://xiaolonglongshangmcsmanagerpanel20231220serverpanel.longshen2009.repl.co/api/:match*"
-    }
+    },
     {
       "source": "/api/:match*/",
       "destination": "https://xiaolonglongshangmcsmanagerpanel20231220serverpanel.longshen2009.repl.co/api/:match*"
